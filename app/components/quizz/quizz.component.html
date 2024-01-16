@@ -1,0 +1,28 @@
+<div class="quiz_container">
+    <div *ngIf="finished" class="quiz_back"><a href=""> VOLTAR </a></div>
+<div class="quiz_logo">
+<img src="\assets\img\logo.png" alt="">
+<h3>{{title}}</h3>
+</div>
+
+<div *ngIf="!finished" class="quiz_questions">
+<h3>{{questionSelected.question}}</h3> <!--Here the property question is in quiz_question.json-->
+</div>
+
+<div 
+  
+ *ngIf="!finished"  class="quiz_options"> <!--The ngfor is for to pass for the selected options-->
+<button class="btn-option" 
+*ngFor=" let option of questionSelected.options; let i = index" 
+ (click) = "buttonPress(option.alias)" > {{option.name}} </button>
+</div>
+<!--Above: the click event is conected with the buttonpress and called the param alias-->
+<div *ngIf="finished" class="quiz_results"> <!--jUST TO SHOW THE CONTENT IF finished  for true-->
+<h1>O seu resultado é:</h1>
+<p>{{anwersSelected}}</p>
+</div>
+
+</div>
+
+<!--Why everys have an ngif with the finished ? Cause one go to cancel the other boolean,
+if an turn on the other turn off-->

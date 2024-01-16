@@ -1,0 +1,58 @@
+{
+    "title":"Você realmente está satisfeito com a sua área ? ",
+    "questions":[
+      {
+        "id":1,
+        "question": "Qual a primeira coisa que você faz quando chega no escritório ?",
+        "options":[
+          {"id": 1, "name":"Toma café da manhã", "alias":"A"},
+          {"id": 2, "name":"Usa o banheiro", "alias":"A"},
+          {"id": 3, "name":"Revisa o trabalho do dia anterior", "alias":"B"},
+          {"id": 4, "name":"Cumprimenta os seus colegas", "alias":"B"},
+          {"id": 5, "name":"Já entra pensando em ir embora", "alias":"A"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Por que você está na sua atual área ?",
+        "options":[
+          {"id": 1, "name":"Necessidade", "alias":"A"},
+          {"id": 2, "name":"Bom retorno financeiro", "alias":"B"},
+          {"id": 3, "name":"Porque você se sente bem nela", "alias":"B"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Você pensa em mudar de carreira ?",
+        "options":[
+          {"id": 1, "name":"Não, eu amo o que eu faço", "alias":"B"},
+          {"id": 2, "name":"Constantemente", "alias":"A"},
+          {"id": 3, "name":"Ás vezes sim", "alias":"A"},
+          {"id": 4, "name":"Penso em mudar de cueca/calcinha, mas nunca da minha carreira atual!", "alias":"B"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Se a sua profissão estivesse em perigo de extinção devido a IA, você se esforçaria para inventar alguma maneira disso não acontecer ?",
+        "options":[
+          {"id": 1, "name":"Seja lá o resultado, eu vou me acostumar", "alias":"A"},
+          {"id": 2, "name":"Claro, o ser humano até pode ser extinto, mas o meu nicho não.", "alias":"B"},
+          {"id": 3, "name":"Ficaria inseguro, mas acabaria lutando pela a minha realidade", "alias":"B"},
+          {"id": 4, "name":"Muito esforço...", "alias":"A"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "A pergunta mais importante, você se sente bem fazendo o que faz ?",
+        "options":[
+          {"id": 1, "name":"Não", "alias":"A"},
+          {"id": 2, "name":"Claro!", "alias":"B"}
+          
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você muito provavelmente está esgotado com o que anda fazendo, é bom rever o que te fez estar aqui hoje e ver se existe ainda um novo começo ae dentro, caso contrário reflita em entrar em uma nova profissão, porque a borboleta sai do casulo apenas uma vez, mas ela continua voando!",
+      "B": "Você está realmente satisfeito com o seu trabalho e não só isso, tu sente uma vontade enorme de continuar se aprimorando. Para você, o céu é o limite!"
+    }
+  }
